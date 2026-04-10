@@ -1,0 +1,341 @@
+.os-scrollbar {
+  --os-handle-border-radius: 16px !important;
+  --os-size: 8px !important;
+}
+
+.main-entityHeader-backgroundColor {
+  background-color: #00000000 !important;
+}
+
+.main-home-homeHeader {
+  background-color: #00000000 !important;
+  background-image: none !important;
+}
+
+.Root__top-container {
+  background: linear-gradient(180deg, var(--spice-sidebar-alt) 0%, var(--spice-sidebar) 100%);
+  overflow: hidden;
+}
+
+.Root__globalNav {
+  background-color: #00000000 !important;
+}
+
+.Root__now-playing-bar {
+  width: var(--panel-width);
+}
+
+.main-topBar-background {
+  background-color: color-mix(in srgb, var(--spice-main) 75%, transparent) !important;
+}
+
+.Root__nav-bar {
+  background-color: #00000000 !important;
+}
+
+.main-yourLibraryX-libraryContainer {
+  background: none !important;
+}
+
+.main-trackList-trackListRow:hover {
+  background-color: var(--spice-highlight);
+}
+
+.main-playPauseButton-button {
+  background-color: var(--spice-button);
+}
+
+.main-yourLibraryX-entryPoints {
+  background-color: #00000000 !important;
+}
+
+.marketplace-header {
+  background-color: #00000000 !important;
+}
+
+.lyrics-lyrics-background {
+  background-color: #00000000 !important;
+}
+
+.main-actionBarBackground-background {
+  background-image: none;
+  background-color: #00000000 !important;
+  animation: none !important;
+  -webkit-animation: none !important;
+}
+
+.main-entityHeader-overlay {
+  background: none !important;
+}
+
+.main-entityHeader-background.main-entityHeader-gradient {
+  opacity: 0.5;
+  animation: none !important;
+}
+
+.main-entityHeader-background.main-entityHeader-overlay:after {
+  background-image: none !important;
+  animation: none !important;
+  -webkit-animation: none !important;
+}
+
+.playlist-playlist-playlistContent {
+  background: #00000000 !important;
+}
+
+.main-nowPlayingView-contextItemInfo:before,
+.playlist-playlist-actionBarBackground-background,
+.main-entityHeader-backgroundColor,
+.Root__now-playing-bar {
+  background: none !important;
+}
+
+.Root__main-view {
+  background-color: #00000000 !important;
+}
+
+.main-nowPlayingBar-center {
+  width: 100%;
+}
+
+.running-animation {
+  animation-play-state: running !important;
+}
+
+.main-tag-container {
+  color: var(--spice-sidebar);
+}
+
+.starrynight-bg-container {
+  position: fixed;
+  z-index: 0;
+  pointer-events: none;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: transparent;
+}
+
+/* new stuff that i added */
+
+/* that one ad banner */
+.ScclvBC0NsMgQLQC {
+  display: none;
+}
+
+/* playlist banner image (also changes the artist banner image)*/
+.jX9OuHoZE8EC2SYi {
+  opacity: clamp(0, calc(1 - (var(--scroll) / 0.32)), 1) !important;
+  height: 38vh;
+}
+
+.bHqdRdxo4vtOizQq {
+  opacity: clamp(0, calc(1 - (var(--scroll) / 0.32)), 1) !important;
+  height: 40vh
+}
+
+/* kill that annoying black gradient near the arrows on the home page */
+.search-searchCategory-contentArea::before,
+.search-searchCategory-contentArea::after {
+  display: none !important;
+}
+
+/* the background of the stuff below artist image */
+.aotfMYhXr8Ag8I7a {
+  background-color: transparent !important;
+}
+
+/* make the artist image cards circle (may break other things idk) */
+.main-cardImage-imageWrapper{
+  border-radius: 50%;
+}
+
+/* track list header after scrolling a bit */
+.Ltz8hFoxXpck1XAk {
+  background-color: color-mix(in srgb, var(--spice-main) 75%, transparent) !important;
+}
+
+.main-nowPlayingView-coverArtContainer {
+  aspect-ratio: 1 / 1 !important;
+}
+
+.lyrics-lyrics-container {
+  --lyrics-color-active: var(--spice-text) !important;
+  --lyrics-color-inactive: var(--spice-subtext) !important;
+  --lyrics-color-passed: var(--spice-subtext) !important;
+  --lyrics-color-background: transparent !important;
+  --lyrics-color-messaging: var(--spice-text) !important;
+}
+
+/* transparent sidebar took forever */
+.Root__right-sidebar *::before {
+  background-color: transparent;
+}
+
+.Root__right-sidebar *:not(.uWEu68slnCYemCug):not(.SCkPnrYn3xYsUf_i) {
+  background-color: transparent;
+}
+.main-nowPlayingView-nowPlayingWidget {
+  opacity: 0.88;
+}
+
+@keyframes twinkle1 {
+  0% {
+    box-shadow: 0px 0px 8px 2px var(--spice-star-glow);
+  }
+
+  20% {
+    box-shadow: 0px 0px -8px 2px var(--spice-star-glow);
+  }
+
+  40% {
+    box-shadow: 0px 0px -8px 2px var(--spice-star-glow);
+  }
+
+  60% {
+    box-shadow: 0px 0px -8px 2px var(--spice-star-glow);
+  }
+
+  80% {
+    box-shadow: 0px 0px 8px 2px var(--spice-star-glow);
+  }
+
+  100% {
+    box-shadow: 0px 0px 8px 2px var(--spice-star-glow);
+  }
+}
+
+@keyframes twinkle2 {
+  0% {
+    box-shadow: 0px 0px 8px 2px var(--spice-star-glow);
+  }
+
+  20% {
+    box-shadow: 0px 0px 8px 2px var(--spice-star-glow);
+  }
+
+  40% {
+    box-shadow: 0px 0px -8px 2px var(--spice-star-glow);
+  }
+
+  60% {
+    box-shadow: 0px 0px -8px 2px var(--spice-star-glow);
+  }
+
+  80% {
+    box-shadow: 0px 0px -8px 2px var(--spice-star-glow);
+  }
+
+  100% {
+    box-shadow: 0px 0px 8px 2px var(--spice-star-glow);
+  }
+}
+
+@keyframes twinkle3 {
+  0% {
+    box-shadow: 0px 0px -8px 2px var(--spice-star-glow);
+  }
+
+  20% {
+    box-shadow: 0px 0px 8px 2px var(--spice-star-glow);
+  }
+
+  40% {
+    box-shadow: 0px 0px 8px 2px var(--spice-star-glow);
+  }
+
+  60% {
+    box-shadow: 0px 0px 8px 2px var(--spice-star-glow);
+  }
+
+  80% {
+    box-shadow: 0px 0px -8px 2px var(--spice-star-glow);
+  }
+
+  100% {
+    box-shadow: 0px 0px -8px 2px var(--spice-star-glow);
+  }
+}
+
+@keyframes twinkle4 {
+  0% {
+    box-shadow: 0px 0px -8px 2px var(--spice-star-glow);
+  }
+
+  20% {
+    box-shadow: 0px 0px -8px 2px var(--spice-star-glow);
+  }
+
+  40% {
+    box-shadow: 0px 0px 8px 2px var(--spice-star-glow);
+  }
+
+  60% {
+    box-shadow: 0px 0px 8px 2px var(--spice-star-glow);
+  }
+
+  80% {
+    box-shadow: 0px 0px 8px 2px var(--spice-star-glow);
+  }
+
+  100% {
+    box-shadow: 0px 0px -8px 2px var(--spice-star-glow);
+  }
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/*
+Pure CSS Shooting Star Animation Effect Copyright (c) 2021 by Delroy Prithvi (https://codepen.io/delroyprithvi/pen/LYyJROR)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+*/
+.shootingstar {
+  position: absolute;
+  width: 4px;
+  height: 4px;
+  background: var(--spice-shooting-star);
+  border-radius: 50%;
+  animation: animate 3s linear;
+  left: initial;
+  z-index: 1;
+}
+
+.shootingstar::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 300px;
+  height: 1px;
+  background: linear-gradient(90deg, var(--spice-shooting-star), transparent);
+}
+
+@keyframes animate {
+  0% {
+    transform: rotate(315deg) translateX(0);
+    opacity: 1;
+  }
+
+  70% {
+    opacity: 1;
+  }
+
+  100% {
+    transform: rotate(315deg) translateX(-1500px);
+    opacity: 0;
+  }
+}
