@@ -8,27 +8,27 @@ A theme derived from the [original StarryNight](https://github.com/spicetify/spi
 
 ### Base
 
-![Base](assets\base.png "Base")
+![Base](assets/base.png)
 
 ### Cotton Candy
 
-![Cotton Candy](assets\cotton_candy.png "Cotton Candy")
+![Cotton Candy](assets/cotton_candy.png)
 
 ### Forest
 
-![Forest](assets\forest.png "Forest")
+![Forest](assets/forest.png)
 
 ### Orange
 
-![Orange](assets\orange.png "Orange")
+![Orange](assets/orange.png)
 
 ### Sky
 
-![Sky](assets\sky.png "Sky")
+![Sky](assets/sky.png)
 
 ### Sunrise
 
-![Sunrise](assets\sunrise.png "Sunrise")
+![Sunrise](assets/sunrise.png)
 
 ## Prerequisites
 
