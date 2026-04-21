@@ -5,7 +5,7 @@
         "preview": "assets/base.png",
         "usercss": "user.css",
         "schemes": "color.ini",
-        "include": ["https://github.com/Bin06AndItsSeemsALittieTooLate/SimpleStarryNight/blob/main/theme.js", "https://raw.githubusercontent.com/Bin06AndItsSeemsALittieTooLate/SimpleStarryNight/main/theme.js"],
+        "include": ["theme.js"],
         "readme": "README.md",
         "authors": [
             { "name": "Bin06AndItsSeemsALittieTooLate", "url": "https://github.com/Bin06AndItsSeemsALittieTooLate" }
