@@ -104,7 +104,7 @@
 
 .starrynight-bg-container {
   position: fixed;
-  z-index: 2;
+  z-index: 1;
   pointer-events: none;
   height: 100%;
   width: 100%;
@@ -204,6 +204,19 @@
 /* artist image in now playing */
 .B3B0XuueQy4Swpyw, .ppsr9k1cXo055Z3t, .P1a_MNB6ZEIu50sz {
   border-radius: 8px;
+}
+
+/* lyrics plus stuff 
+  ALSO FOR THE LOVE OF GOD DO NOT ENABLE COLORFUL BACKGROUND UNTIL I FIND A WAY TO TOGGLE THIS VIA JS
+*/
+.lyrics-lyricsContainer-LyricsBackground{
+  display: none;
+}
+.lyrics-lyricsContainer-LyricsContainer{
+  --lyrics-color-background: transparent;
+}
+.Wrapper-sm-only, .Wrapper-small-only{
+  transform: translateY(2px);
 }
 @keyframes twinkle1 {
   0% {
