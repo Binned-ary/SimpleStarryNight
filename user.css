@@ -207,14 +207,8 @@
 }
 
 /* lyrics plus stuff 
-  ALSO FOR THE LOVE OF GOD DO NOT ENABLE COLORFUL BACKGROUND UNTIL I FIND A WAY TO TOGGLE THIS VIA JS
+  set the background color to transparent, and dont enable colorful background
 */
-.lyrics-lyricsContainer-LyricsBackground{
-  display: none;
-}
-.lyrics-lyricsContainer-LyricsContainer{
-  --lyrics-color-background: transparent !important;
-}
 .Wrapper-sm-only, .Wrapper-small-only{
   transform: translateY(2px);
 }
