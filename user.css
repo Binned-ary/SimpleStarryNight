@@ -111,6 +111,13 @@
   top: 0;
   left: 0;
   background-color: transparent;
+  contain: layout style paint;
+  will-change: auto;
+}
+
+.starrynight-canvas {
+  width: 100% !important;
+  height: 100% !important;
 }
 
 /* new stuff that i added */
@@ -341,9 +348,10 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   height: 4px;
   background: var(--spice-shooting-star);
   border-radius: 50%;
-  animation: animate 3s linear;
+  animation: animate 3s linear infinite;
   left: initial;
   z-index: 1;
+  will-change: transform;
 }
 
 .shootingstar::before {
